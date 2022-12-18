@@ -97,6 +97,16 @@
    
 }
 
+.btn button{
+    transition-duration: 0.5s;
+}
+
+.btn button:hover{
+    color: #fff;
+    font-size: large;
+    background-color: tomato;
+    
+}
 
 
 
