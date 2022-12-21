@@ -43,13 +43,32 @@
             </div>
 
             <span class="btn"> 
-                <button> Follow</button>
+                <button class="ins"> Follow</button>
                 <button>Message</button>
             </span>
            
         </div> 
 
     </div>
-    
+     <script>
+        let button =document.querySelector(".ins")
+        button.onclick=()=>{
+            
+            button.innerHTML='Following..'
+
+            button.onclick=()=>{
+                button.innerHTML='Follow'
+            }
+        }
+
+
+        // button.onclick=()=>{
+        //     fetch( 'https://www.instagram.com/shyamjangid.official/?hl=en.json')
+        //    .then((response)=>{return response.json()})
+        //    .then((result)=>{console.log(result)})
+        
+        // }
+       
+     </script>
 </body>
 </html>
